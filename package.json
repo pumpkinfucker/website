@@ -1,0 +1,27 @@
+{
+  "name": "mrchromebox.tech",
+  "version": "0.1.0",
+  "description": "MrChromebox.tech website",
+  "main": "index.js",
+  "author": "MrChromebox",
+  "contributors": [],
+  "repository": "https://github.com/mrchromebox/website/",
+  "scripts": {
+    "dev": "npm run device-table && vuepress dev src",
+    "dev-prod": "npm run device-table && NODE_ENV=production vuepress dev src",
+    "build": "npm run device-table && vuepress build src",
+    "device-table": "node supported-devices/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/bundler-webpack": "2.0.0-rc.14",
+    "@vuepress/plugin-back-to-top": "^2.0.0-rc.24",
+    "@vuepress/plugin-medium-zoom": "^2.0.0-rc.24",
+    "@vuepress/plugin-register-components": "^2.0.0-rc.21",
+    "@vuepress/plugin-search": "^2.0.0-rc.24",
+    "@vuepress/theme-default": "2.0.0-rc.37",
+    "sass-loader": "^14.2.0",
+    "vue": "^3.4.31",
+    "vuepress": "2.0.0-rc.14"
+  }
+}
