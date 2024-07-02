@@ -7,9 +7,9 @@
   "contributors": [],
   "repository": "https://github.com/mrchromebox/website/",
   "scripts": {
-    "dev": "npm run device-table && vuepress dev src",
-    "dev-prod": "npm run device-table && NODE_ENV=production vuepress dev src",
-    "build": "npm run device-table && vuepress build src",
+    "dev": "npm run device-table && vuepress dev .",
+    "dev-prod": "npm run device-table && NODE_ENV=production vuepress dev .",
+    "build": "npm run device-table && vuepress build .",
     "device-table": "node supported-devices/index.js"
   },
   "license": "MIT",

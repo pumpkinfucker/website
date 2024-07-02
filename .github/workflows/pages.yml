@@ -1,4 +1,4 @@
-name: docs
+name: generate-pages
 
 on:
   # trigger deployment on every push to main branch
@@ -10,36 +10,27 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
+      # checkout git repo
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          # fetch all commits to get last updated time or other git log info
           fetch-depth: 0
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4.0.0
-        with:
-          # choose pnpm version to use
-          version: latest
-          # install deps with pnpm
-          run_install: true
-
+      # setup node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          # choose node.js version to use
-          node-version: 20
-          # cache deps for pnpm
-          cache: pnpm
-
-      # run build script
+          node-version: 18
+      # run build script in package.json
       - name: Build VuePress site
-        run: pnpm vuepress build . && mv ./.vuepress/dist/ "./_site"
-      
+        run: npm i && npm run build && mv ./.vuepress/dist/ "./_site"
+      # upload build artifact
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: 'github-pages'
+          path: "_site/"
 
   # Deployment job
   deploy:
@@ -54,4 +45,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
