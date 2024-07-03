@@ -1,11 +1,8 @@
 {
-    "Sandybridge/Ivybridge": {
+    "Intel Sandybridge/Ivybridge": {
         "default_wpmethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook\" target=\"_blank\">switch</a>",
         "default_rwLegacy": false,
         "default_fullrom": true,
-        "default_windows": "Supported",
-        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
-        "default_linux": "Supported",
         "devices": [
             {
                 "device": [
@@ -51,13 +48,10 @@
             }
         ]
     },
-    "Haswell": {
+    "Intel Haswell": {
         "default_wpmethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/hp-chromebook-14\" target=\"_blank\">screw</a>",
         "default_rwLegacy": null,
         "default_fullrom": true,
-        "default_windows": "Supported",
-        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
-        "default_linux": "Supported",
         "devices": [
             {
                 "device": [
@@ -98,8 +92,7 @@
                     "Acer C720/C720P Chromebook"
                 ],
                 "boardname": "PEPPY",
-                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook\" target=\"_blank\">screw</a>",
-                "mac": "Tested, Supported."
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -124,13 +117,10 @@
             }
         ]
     },
-    "Broadwell": {
+    "Intel Broadwell": {
         "default_wpmethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook\" target=\"_blank\">screw</a>",
         "default_rwLegacy": null,
         "default_fullrom": true,
-        "default_windows": "Supported",
-        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
-        "default_linux": "Supported",
         "devices": [
             {
                 "device": [
@@ -163,15 +153,13 @@
                     "Asus Chromebox 2 (CN62)"
                 ],
                 "boardname": "GUADO",
-                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>",
-                "mac": "Tested, Supported."
+                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
                     "Dell Chromebook 13 7310"
                 ],
-                "boardname": "LULU",
-                "mac": "Tested, Supported."
+                "boardname": "LULU"
             },
             {
                 "device": [
@@ -196,13 +184,10 @@
             }
         ]
     },
-    "Baytrail": {
+    "Intel Baytrail": {
         "default_wpmethod": "screw",
         "default_rwLegacy": null,
         "default_fullrom": true,
-        "default_windows": "Supported",
-        "default_mac": "No MacOS support.",
-        "default_linux": "Supported",
         "devices": [
             {
                 "device": [
@@ -297,13 +282,10 @@
             }
         ]
     },
-    "Braswell": {
+    "Intel Braswell": {
         "default_wpmethod": "<a href=\"/images/b/bb/Banon_wp.jpg\" class=\"internal\" title=\"Banon wp.jpg\">screw</a>",
         "default_rwLegacy": null,
         "default_fullrom": true,
-        "default_windows": "Supported",
-        "default_mac": "No MacOS support.",
-        "default_linux": "Supported",
         "devices": [
             {
                 "device": [
@@ -316,14 +298,12 @@
                     "Samsung Chromebook 3"
                 ],
                 "boardname": "CELES",
-                "wpMethod": "screw",
-                "windows": "Requires platform clock workaround. (See <a href=\"../installing/post-install\">post install</a>)"
+                "wpMethod": "screw"
             },
             {
                 "device": [
                     "Acer Chromebook R11 (C738T, CB5-132T)"
                 ],
-                "windows": "No microphone support",
                 "boardname": "CYAN",
                 "wpMethod": "screw"
             },
@@ -403,13 +383,10 @@
             }
         ]
     },
-    "Skylake": {
+    "Intel Skylake": {
         "default_wpmethod": "screw",
         "default_rwLegacy": null,
         "default_fullrom": true,
-        "default_windows": "Audio driver is paid.",
-        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
-        "default_linux": "max98357a doesn't have a volume limiter so speakers could get fried.",
         "devices": [
             {
                 "device": [
@@ -421,8 +398,7 @@
                 "device": [
                     "Samsung Chromebook Pro"
                 ],
-                "boardname": "CAROLINE",
-                "mac": "Tested, unsupported. HD 515 broken, artifacts in recovery. EmeraldSDHC kernel panics."
+                "boardname": "CAROLINE"
             },
             {
                 "device": [
@@ -441,8 +417,7 @@
                     "Acer Chromebook 14 for Work",
                     "Acer Chromebook 11 (C771/C771T)"
                 ],
-                "boardname": "LARS",
-                "mac": "Tested, supported. No touchscreen support."
+                "boardname": "LARS"
             },
             {
                 "device": [
@@ -452,13 +427,10 @@
             }
         ]
     },
-    "Apollolake": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+    "Intel Apollolake": {
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Audio driver is paid. Buggy SD card.",
-        "default_mac": "No MacOS support.",
-        "default_linux": "MicroSD detection issues<br><br>No headphone jack on SOF<br><br>max98357a on AVS doesn't have a volume limiter so speakers could get fried",
         "devices": [
             {
                 "device": [
@@ -592,13 +564,10 @@
             }
         ]
     },
-    "Kabylake / Amberlake": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+    "Intel Kabylake / Amberlake": {
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Audio driver is paid.",
-        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
-        "default_linux": "max98357a doesn't have a volume limiter so speakers could get fried.",
         "devices": [
             {
                 "device": [
@@ -610,17 +579,13 @@
                 "device": [
                     "Acer Chromebook Spin 13"
                 ],
-                "boardname": "AKALI360",
-                "mac": "Tested, unsupported. EmeraldSDHC does not show eMMC drive. EmeraldSDHC + IRQ Conflict patch causes kernel panic"
+                "boardname": "AKALI360"
             },
             {
                 "device": [
                     "Google Pixelbook Go (2019)"
                 ],
-                "boardname": "ATLAS",
-                "windows": "Audio driver is paid. No webcam support.",
-                "linux": "Cameras don't work.",
-                "mac": "Tested, Supported."
+                "boardname": "ATLAS"
             },
             {
                 "device": [
@@ -638,15 +603,14 @@
                 "device": [
                     "Google Pixelbook (2017)"
                 ],
-                "boardname": "EVE",
-                "mac": "Tested, Supported."
+                "boardname": "EVE"
             },
             {
                 "device": [
                     "Asus Google Meet kit (KBL)"
                 ],
                 "boardname": "EXCELSIOR",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/a/a8/Excelsior_wp.jpg\" class=\"internal\" title=\"Excelsior wp.jpg\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/a/a8/Excelsior_wp.jpg\" class=\"internal\" title=\"Excelsior wp.jpg\">screw</a>"
             },
             {
                 "device": [
@@ -654,45 +618,39 @@
                     "Newline Chromebox A10"
                 ],
                 "boardname": "JAX",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, screw"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, screw"
             },
             {
                 "device": [
                     "Acer Chromebase 24I2"
                 ],
                 "boardname": "KARMA",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, screw"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, screw"
             },
             {
                 "device": [
                     "HP Chromebox G2"
                 ],
                 "boardname": "KENCH",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
                     "Asus Chromebook C425"
                 ],
-                "boardname": "LEONA",
-                "mac": "Tested, Supported."
+                "boardname": "LEONA"
             },
             {
                 "device": [
                     "Samsung Chromebook Plus V2"
                 ],
-                "boardname": "NAUTILUS",
-                "linux": "Camera on the keyboard doesn't work.",
-                "mac": "Tested, unsupported. HD 615 broken, will not boot without Ivy Bridge CPUID spoof and -igfxvesa. No acceleration."
+                "boardname": "NAUTILUS"
             },
             {
                 "device": [
                     "Google Pixel Slate"
                 ],
-                "boardname": "NOCTURNE",
-                "windows": "Audio driver is paid. No webcam support.",
-                "linux": "Cameras don't work.",
-                "mac": "Tested, Supported."
+                "boardname": "NOCTURNE"
             },
             {
                 "device": [
@@ -704,15 +662,14 @@
                 "device": [
                     "Asus Chromebook Flip C433/C434"
                 ],
-                "boardname": "SHYVANA",
-                "mac": "Tested, Supported."
+                "boardname": "SHYVANA"
             },
             {
                 "device": [
                     "Acer Chromebox CXI3"
                 ],
                 "boardname": "SION",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -737,7 +694,7 @@
                     "Asus Chromebox 3 (CN65)"
                 ],
                 "boardname": "TEEMO",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -753,17 +710,14 @@
                     "ViewSonic NMP660 Chromebox"
                 ],
                 "boardname": "WUKONG",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
             }
         ]
     },
-    "Geminilake": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+    "Intel Geminilake": {
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Audio driver is paid.",
-        "default_mac": "No MacOS support.",
-        "default_linux": "Supported",
         "devices": [
             {
                 "device": [
@@ -1013,13 +967,10 @@
             }
         ]
     },
-    "Whiskeylake": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">battery</a>",
+    "Intel Whiskeylake": {
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">battery</a>",
         "default_rwLegacy": true,
         "default_fullrom": false,
-        "default_windows": "?",
-        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
-        "default_linux": "?",
         "devices": [
             {
                 "device": [
@@ -1031,18 +982,14 @@
                 "device": [
                     "Dell Latitude 5400 Chromebook Enterprise"
                 ],
-                "boardname": "SARIEN",
-                "linux": "Sim card slot was not tested. Everything else works under RW_LEGACY. This Chromebook has upgradable RAM and SSD."
+                "boardname": "SARIEN"
             }
         ]
     },
-    "Cometlake": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+    "Intel Cometlake": {
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
         "default_rwLegacy": false,
         "default_fullrom": true,
-        "default_windows": "Audio driver is paid.",
-        "default_mac": "Not tested. Celeron/Pentium devices unsupported.",
-        "default_linux": "Supported",
         "devices": [
             {
                 "device": [
@@ -1054,25 +1001,20 @@
                 "device": [
                     "HP Chromebook x360 14c-ca0"
                 ],
-                "boardname": "DRAGONAIR",
-                "linux": "Fingerprint reader doesn't work",
-                "mac": "Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled."
+                "boardname": "DRAGONAIR"
             },
             {
                 "device": [
                     "Dell Latitude 7410 Chromebook Enterprise"
                 ],
                 "boardname": "DRALLION",
-                "rwLegacy": true,
-                "windows": "Supported",
-                "mac": "Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled."
+                "rwLegacy": true
             },
             {
                 "device": [
                     "HP Pro c640 Chromebook"
                 ],
-                "boardname": "DRATINI",
-                "linux": "Fingerprint reader doesn't work"
+                "boardname": "DRATINI"
             },
             {
                 "device": [
@@ -1080,7 +1022,7 @@
                 ],
                 "boardname": "DUFFY",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/a/ab/Duffy_wp_jumper.png\" class=\"internal\" title=\"Duffy wp jumper.png\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/a/ab/Duffy_wp_jumper.png\" class=\"internal\" title=\"Duffy wp jumper.png\">jumper</a>"
             },
             {
                 "device": [
@@ -1088,7 +1030,7 @@
                 ],
                 "boardname": "FAFFY",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
             },
             {
                 "device": [
@@ -1101,8 +1043,7 @@
                     "HP Elite c1030 Chromebook",
                     "HP Chromebook x360 13c-ca0"
                 ],
-                "boardname": "JINLON",
-                "linux": "Fingerprint reader doesn't work"
+                "boardname": "JINLON"
             },
             {
                 "device": [
@@ -1110,7 +1051,7 @@
                 ],
                 "boardname": "KAISA",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
             },
             {
                 "device": [
@@ -1122,15 +1063,13 @@
                 "device": [
                     "Acer Chromebook Spin 713 (CP713-2W)"
                 ],
-                "boardname": "KLED",
-                "mac": "Tested, Supported.<br><br>Requires `DevirtualiseMmio` to be disabled."
+                "boardname": "KLED"
             },
             {
                 "device": [
                     "Samsung Galaxy Chromebook"
                 ],
-                "boardname": "KOHAKU",
-                "linux": "Fingerprint reader doesn't work.<br><br>Sleep issues related to EC (wakes up with lid closed)"
+                "boardname": "KOHAKU"
             },
             {
                 "device": [
@@ -1144,7 +1083,7 @@
                 ],
                 "boardname": "NOIBAT",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/9/9d/Noibat_wp.png\" class=\"internal\" title=\"Noibat wp.png\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/9/9d/Noibat_wp.png\" class=\"internal\" title=\"Noibat wp.png\">jumper</a>"
             },
             {
                 "device": [
@@ -1152,17 +1091,14 @@
                 ],
                 "boardname": "WYVERN",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/b/b0/Wyvern_WP_jumper.png\" class=\"internal\" title=\"Wyvern WP jumper.png\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/b/b0/Wyvern_WP_jumper.png\" class=\"internal\" title=\"Wyvern WP jumper.png\">jumper</a>"
             }
         ]
     },
-    "TigerLake": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+    "Intel TigerLake": {
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Audio and Thunderbolt drivers are paid.",
-        "default_mac": "No MacOS support.",
-        "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"../installing/post-install\">post install</a>)",
         "devices": [
             {
                 "device": [
@@ -1246,13 +1182,10 @@
             }
         ]
     },
-    "JasperLake": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper",
+    "Intel JasperLake": {
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Audio driver is paid.",
-        "default_mac": "No MacOS support.",
-        "default_linux": "Cameras untested.",
         "devices": [
             {
                 "device": [
@@ -1271,21 +1204,21 @@
                     "Lenovo 100e Chromebook Gen 3"
                 ],
                 "boardname": "BOOKEM",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
             },
             {
                 "device": [
                     "Lenovo 500e Chromebook Gen 3"
                 ],
                 "boardname": "BOTEN",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
             },
             {
                 "device": [
                     "Lenovo Flex 3i-11 / IdeaPad Flex 3i Chromebook"
                 ],
                 "boardname": "BOTENFLEX",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
             },
             {
                 "device": [
@@ -1310,28 +1243,28 @@
                     "HP Chromebook x360 11 G4 EE"
                 ],
                 "boardname": "DRAWCIA",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/50/Drawcia_wp.jpg\" class=\"internal\" title=\"Drawcia wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/50/Drawcia_wp.jpg\" class=\"internal\" title=\"Drawcia wp.jpg\">jumper</a>"
             },
             {
                 "device": [
                     "HP Chromebook 11 G9 EE"
                 ],
                 "boardname": "DRAWLAT",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/1/17/Drawlat_wp.jpg\" class=\"internal\" title=\"Drawlat wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/1/17/Drawlat_wp.jpg\" class=\"internal\" title=\"Drawlat wp.jpg\">jumper</a>"
             },
             {
                 "device": [
                     "HP Chromebook 14 G7"
                 ],
                 "boardname": "DRAWMAN",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/52/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/52/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\">jumper</a>"
             },
             {
                 "device": [
                     "HP Fortis 14 G10 Chromebook"
                 ],
                 "boardname": "DRAWPER",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/52/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/52/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\">jumper</a>"
             },
             {
                 "device": [
@@ -1429,7 +1362,7 @@
                     "Acer Chromebook Spin 512 [R853TA/R853TNA]"
                 ],
                 "boardname": "MAGLIA",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/b/b6/Maglia_wp.jpg\" class=\"internal\" title=\"Maglia wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/b/b6/Maglia_wp.jpg\" class=\"internal\" title=\"Maglia wp.jpg\">jumper</a>"
             },
             {
                 "device": [
@@ -1460,14 +1393,14 @@
                     "Acer Chromebook 317 [CB317-1H]"
                 ],
                 "boardname": "MAGPIE",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/3/3c/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/3/3c/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\">jumper</a>"
             },
             {
                 "device": [
                     "NEC Chromebook Y3"
                 ],
                 "boardname": "METAKNIGHT",
-                "wpMethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/3/3c/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/3/3c/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\">jumper</a>"
             },
             {
                 "device": [
@@ -1511,13 +1444,10 @@
             }
         ]
     },
-    "Alderlake": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>",
+    "Intel Alderlake": {
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Audio and Thunderbolt drivers are paid.",
-        "default_mac": "No MacOS support.",
-        "default_linux": "No fingerprint functionality on models that have it.<br><br>USB4 requires systemd service (See <a href=\"../installing/post-install\">post install</a>)",
         "devices": [
             {
                 "device": [
@@ -1559,8 +1489,7 @@
                 "device": [
                     "Acer Chromebook Spin 714 (CP714-1WN)"
                 ],
-                "boardname": "KANO",
-                "windows": "Audio and Thunderbolt drivers are paid. No webcam support."
+                "boardname": "KANO"
             },
             {
                 "device": [
@@ -1597,9 +1526,7 @@
                 "device": [
                     "HP Elite Dragonfly Chromebook"
                 ],
-                "boardname": "REDRIX",
-                "windows": "Audio and Thunderbolt drivers are paid. No webcam support.",
-                "linux": "Touchpad needs fix, no camera, see <a href=\"https://github.com/chrultrabook/docs/issues/72\">#72</a>"
+                "boardname": "REDRIX"
             },
             {
                 "device": [
@@ -1628,12 +1555,9 @@
         ]
     },
     "Intel Alderlake-N": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Audio and USB4 drivers are paid.",
-        "default_mac": "No MacOS support.",
-        "default_linux": "Audio may not work.",
         "devices": [
             {
                 "device": [
@@ -1703,13 +1627,10 @@
             }
         ]
     },
-    "Stoneyridge": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+    "AMD Stoneyridge": {
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Experimental Windows support. Requires patched drivers with testsigning enabled.",
-        "default_mac": "No MacOS support.",
-        "default_linux": "Needs kernel compiled with AMDGPU=Y instead of =M and firmware built-in to get working audio",
         "devices": [
             {
                 "device": [
@@ -1762,13 +1683,10 @@
             }
         ]
     },
-    "Picasso/Dali": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
+    "AMD Picasso": {
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50 (battery)</a>",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Supported",
-        "default_mac": "No MacOS support.",
-        "default_linux": "Needs to add \"iommu=pt\" to kernel parameters",
         "devices": [
             {
                 "device": [
@@ -1834,12 +1752,9 @@
         ]
     },
     "AMD Cezanne": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Audio driver is paid.",
-        "default_mac": "No MacOS support.",
-        "default_linux": "Speakers are not working currently.",
         "devices": [
             {
                 "device": [
@@ -1856,12 +1771,9 @@
         ]
     },
     "AMD Mendocino": {
-        "default_wpmethod": "<a href=\"https://wiki.mrchromebox.tech/Firmware_Write_Protect#Hardware_Write_Protection\" title=\"Firmware Write Protect\">CR50</a>, jumper",
+        "default_wpmethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper",
         "default_rwLegacy": true,
         "default_fullrom": true,
-        "default_windows": "Audio driver is paid.",
-        "default_mac": "No MacOS support.",
-        "default_linux": "A recent kernel (6.8+) is needed for headphones to work.",
         "devices": [
             {
                 "device": [

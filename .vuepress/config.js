@@ -51,6 +51,10 @@ export default defineUserConfig ({
       {
         text: 'Get Help on the Forums',
         link: 'https://forum.chrultrabook.com/'
+      },
+      {
+        text: 'Github Repos',
+        link: 'https://github.com/MrChromebox/'
       }
     ],
     sidebarDepth: 0,
@@ -76,30 +80,30 @@ export default defineUserConfig ({
       },
       {
         text: 'ChromeOS Boot Modes',
-        link: '/docs/cros-boot-modes',
+        link: '/docs/boot-modes/',
         collapsible: true,
         children: [
           {
             text: 'Normal Mode',
-            link: '/docs/cros-boot-modes/normal',                
+            link: '/docs/boot-modes/normal',                
           },
           {
             text: 'Recovery Mode',
-            link: '/docs/cros-boot-modes/recovery',                
+            link: '/docs/boot-modes/recovery',                
           },
           {
             text: 'Developer Mode',
-            link: '/docs/cros-boot-modes/developer',                
+            link: '/docs/boot-modes/developer',                
           },
           {
             text: 'Legacy Boot Mode (aka AltFw)',
-            link: '/docs/cros-boot-modes/legacy',                
+            link: '/docs/boot-modes/legacy',                
           },
         ]
       },
       {
         text: 'Firmware 101',
-        link: '/docs/firmware',
+        link: '/docs/firmware/',
         collapsible: true,
         children: [
           {
@@ -108,36 +112,22 @@ export default defineUserConfig ({
           },
           {
             text: 'Firmware Write Protect',
-            link: '/docs/firmware/wp',
+            link: '/docs/firmware/wp/',
             collapsible: false,
             children: [
               {
                 text: 'Disabling FW WP',
                 link: '/docs/firmware/wp/disabling',
-                children: [
-                  {
-                    text: 'Removing the WP Screw',
-                    link: '/docs/firmware/wp/screw',
-                  },
-                  {
-                    text: 'Unplugging the Battery',
-                    link: '/docs/firmware/wp/battery',
-                  },
-                  {
-                    text: 'Bridging a Jumper',
-                    link: '/docs/firmware/wp/jumper',
-                  },
-                  {
-                    text: 'Using a SuzyQable',
-                    link: '/docs/firmware/suzyq',
-                  },
-                ]
               }
             ]
           },
           {
             text: 'Flashing Firmware',
             link: '/docs/firmware/flashing-firmware'
+          },
+          {
+            text: 'Flashing Manually',
+            link: '/docs/firmware/manual-flashing',
           },
           {
             text: 'Updating Firmware',
@@ -150,42 +140,38 @@ export default defineUserConfig ({
         link: '/docs/known-issues',
       },
       {
-        text: 'Troubleshooting',
+        text: 'Help and Support',
         link: '/docs/support/',
         collapsible: true,
         children: [
           {
             text: 'Debugging / Getting Help',
-            link: '/docs/support/debugging/',
+            link: '/docs/support/debugging',
           },
           {
             text: 'Compiling Your Own Firmware',
             link: '/docs/support/compiling',
           },
           {
-            text: 'Flashing Manually',
-            link: '/docs/support/manual-flashing',
-          },
-          {
             text: 'Unbricking',
-            link: '/docs/unbricking/',
+            link: '/docs/support/unbricking/',
             collapsible: false,
             children: [
               {
                 text: 'With a ch341a USB Programmer',
-                link: '/docs/unbricking/unbrick-ch341a',
+                link: '/docs/support/unbricking/unbrick-ch341a',
               },
               {
                 text: 'With a Suzy-Q Cable',
-                link: '/docs/unbricking/unbrick-suzyq',
+                link: '/docs/support/unbricking/unbrick-suzyq',
               },
             ]
           }
         ]
       },
       {
-        text: 'Reverting to chromeOS',
-        link: '/docs/reverting',
+        text: 'Reverting to ChromeOS',
+        link: '/docs/reverting/',
         collapsible: true,
         children: [
           {

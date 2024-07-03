@@ -1,6 +1,6 @@
-## Firmware Update Types
+# Firmware Update Types
 
-*   **RW\_LEGACY**
+*   **RW_LEGACY**
     
     *   Updates/replaces the stock legacy boot payload (SeaBIOS) included on many models; supplements the ChromeOS / secure boot payload
     *   Leaves all stock functionality intact, including the Developer Mode boot screen and Recovery Mode functionality
@@ -9,10 +9,10 @@
     *   Carries zero risk of bricking the device
     *   On many models, includes bugfixes and enables additional functionality
     
-    The **RW\_LEGACY** firmware is for users who want to dual-boot ChromeOS + Linux, or users who want to run Linux without having to open the device/disable the firmware write-protect (and are ok with the accompanying limitations).
+    The **RW_LEGACY** firmware is for users who want to dual-boot ChromeOS + Linux, or users who want to run Linux without having to open the device/disable the firmware write-protect (and are ok with the accompanying limitations).
     
   
-*   **BOOT\_STUB** (now deprecated; listed for historical purposes only)
+*   **BOOT_STUB** (now deprecated; listed for historical purposes only)
     
     *   Replaces the ChromeOS Verified Boot firmware payload (depthcharge) with a legacy boot payload (SeaBIOS)
     *   Removes the Developer Mode boot screen (white "OS verification is OFF")
@@ -25,7 +25,7 @@
         *   TL;DR - be careful not to do it :)
     *   Was a stop-gap solution for Baytrail devices, which for a long time didn't have a Full ROM firmware available
     
-    The **BOOT\_STUB** firmware was originally an option for some platforms which lacked UEFI (Full ROM) firmware support, but it's no longer needed and support for it has been dropped).
+    The **BOOT_STUB** firmware was originally an option for some platforms which lacked UEFI (Full ROM) firmware support, but it's no longer needed and support for it has been dropped).
     
   
 *   **(UEFI) Full ROM**
@@ -52,7 +52,7 @@ Firmware updates are exclusively available via the [ChromeOS Firmware Utility Sc
 
 The ChromeOS firmware boot flags / Google Binary Block (GBB) flags are firmware level settings stored directly in the firmware flash chip itself in a read-only (RO) area, and therefore require the firmware write protect to be disabled before setting. The GBB flags control the behavior of the firmware payload used to boot ChromeOS (depthcharge); they are used to set the default boot mode (ChromeOS or Legacy Boot Mode), the Developer Mode boot screen timeout (2s or 30s), prevent exiting Developer Mode via spacebar, and to enable Legacy Boot Mode regardless of crossystem `dev_boot_legacy` setting, among other things.
 
-**Important:** The GBB Flags are only valid when using the the stock firmware, or stock + RW\_LEGACY firmware update. They have no effect (and cannot be set) when using the UEFI Full ROM firmware.
+**Important:** The GBB Flags are only valid when using the the stock firmware, or stock + RW_LEGACY firmware update. They have no effect (and cannot be set) when using the UEFI Full ROM firmware.
 
 Most users should not attempt to set these manually, but instead use the [ChromeOS Firmware Utility Script](/docs/fwscript.md) to set them based on their preferred default boot mode and boot timeout (the script automatically sets the Developer Mode and Legacy Boot Mode overrides for all options except factory default). For those curious, a full description of all the GBB flags can be found in [Google's source code here](https://chromium.googlesource.com/chromiumos/platform/vboot/+/master/_vboot_reference/firmware/include/gbb_header.h).
 
@@ -62,11 +62,11 @@ Most users should not attempt to set these manually, but instead use the [Chrome
 
 The components of the stock firmware for any given ChromeOS device can be found in the device-specific branches of Google's firmware trees:  
   
-[https://chromium.googlesource.com/chromiumos/third\_party/coreboot](https://chromium.googlesource.com/chromiumos/third_party/coreboot/)  
+[https://chromium.googlesource.com/chromiumos/third_party/coreboot](https://chromium.googlesource.com/chromiumos/third_party/coreboot/)  
 [https://chromium.googlesource.com/chromiumos/platform/depthcharge](https://chromium.googlesource.com/chromiumos/platform/depthcharge/)  
-[https://chromium.googlesource.com/chromiumos/third\_party/seabios](https://chromium.googlesource.com/chromiumos/third_party/seabios/)  
+[https://chromium.googlesource.com/chromiumos/third_party/seabios](https://chromium.googlesource.com/chromiumos/third_party/seabios/)  
 
-For instance, the coreboot component for the Asus Chromebox CN60 (PANTHER) is [https://chromium.googlesource.com/chromiumos/third\_party/coreboot/+/firmware-panther-4920.24.B](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-panther-4920.24.B)
+For instance, the coreboot component for the Asus Chromebox CN60 (PANTHER) is [https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-panther-4920.24.B](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-panther-4920.24.B)
 
 The Google firmware branch for a specific device is pretty much a fixed snapshot of the firmware component at/around the time of the device's release, and usually has minimal bugfix updates after release. In contrast, the firmware updates available here via the Firmware Utility Script are built using the latest upstream (main / master copy) source code directly from the coreboot and SeaBIOS projects, with additional fixes/tweaks applied on top.
 
