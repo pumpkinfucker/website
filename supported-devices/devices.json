@@ -1086,7 +1086,9 @@
             },
             {
                 "device": [
-                    "CTL Chromebox CBx2"
+                    "CTL Chromebox CBx2",
+                    "Promethean Chromebox 2",
+                    "ViewSonic NMP760 Chromebox"
                 ],
                 "boardname": "WYVERN",
                 "rwLegacy": true,
