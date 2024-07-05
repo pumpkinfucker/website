@@ -1189,6 +1189,14 @@
         "devices": [
             {
                 "device": [
+                    "DINATECH Gen1 Chromebook  SG20JL1C",
+                    "Multilaser Chromebook M11C-PC919",
+                    "Allied Chromebook 11 N5100E"
+                ],
+                "boardname": "BEADRIX"
+            },
+            {
+                "device": [
                     "Lenovo Flex 3i 15 / Ideapad Flex 3i Chromebook"
                 ],
                 "boardname": "BEETLEY"
@@ -1240,7 +1248,20 @@
             },
             {
                 "device": [
-                    "HP Chromebook x360 11 G4 EE"
+                    "AOPEN Chromebox Mini 2"
+                ],
+                "boardname": "DEXI"
+            },
+            {
+                "device": [
+                    "Acer Chromebox Mini CXM1"
+                ],
+                "boardname": "DITA"
+            },
+            {
+                "device": [
+                    "HP Chromebook x360 11 G4 EE",
+                    "HP Fortis x360 11 G3 J Chromebook"
                 ],
                 "boardname": "DRAWCIA",
                 "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/50/Drawcia_wp.jpg\" class=\"internal\" title=\"Drawcia wp.jpg\">jumper</a>"
@@ -1310,14 +1331,20 @@
             },
             {
                 "device": [
-                    "CTL Chromebook NL72"
+                    "ADVAN Chromebook 116J",
+                    "Centerm Chromebook M610",
+                    "CTL Chromebook NL72",
+                    "Edxis Chromebook 11",
+                    "Poin2 Chromebook 11B",
+                    "Zyrex Chromebook M432-64"
                 ],
                 "boardname": "KRACKO"
             },
             {
                 "device": [
                     "CTL Chromebook NL72T",
-                    "LG Chromebook 11TC50Q/11TQ50Q"
+                    "LG Chromebook 11TC50Q/11TQ50Q",
+                    "Poin2 Chromebook 11E"
                 ],
                 "boardname": "KRACKO360"
             },
@@ -1378,7 +1405,8 @@
             },
             {
                 "device": [
-                    "Acer Chromebook 314 [CB314-3H/3HT, C934/C934T]"
+                    "Acer Chromebook 314 [CB314-3H/3HT, C934/C934T]",
+                    "Packard Bell Chromebook 314"
                 ],
                 "boardname": "MAGNETO"
             },
@@ -1410,6 +1438,16 @@
             },
             {
                 "device": [
+                    "Acer Chromebook 311",
+                    "ASUS Chromebook CA11J2",
+                    "CTL Chromebook PX11EG",
+                    "Edxis E-Lite Chromebook 11",
+                    "Multilaser Chromebook M11C-PC924"
+                ],
+                "boardname": "PEEZER"
+            },
+            {
+                "device": [
                     "Axioo Chromebook P11",
                     "CTL Chromebook PX11E",
                     "SPC Chromebook Z1 Mini",
@@ -1420,6 +1458,7 @@
             {
                 "device": [
                     "Axioo Chromebook P14",
+                    "CTL Chromebook Enterprise",
                     "Gateway Chromebook 14"
                 ],
                 "boardname": "PIRIKA"
@@ -1432,6 +1471,12 @@
             },
             {
                 "device": [
+                    "SamsungGalaxy Chromebook Go 11"
+                ],
+                "boardname": "SASUKETTE"
+            },
+            {
+                "device": [
                     "Asus Chromebook CR1100CKA"
                 ],
                 "boardname": "STORO"
@@ -1441,6 +1486,12 @@
                     "Asus Chromebook Flip CR1100FKA"
                 ],
                 "boardname": "STORO360"
+            },
+            {
+                "device": [
+                    "ASUS Fanless Chromebox CF40"
+                ],
+                "boardname": "TARANZA"
             }
         ]
     },
