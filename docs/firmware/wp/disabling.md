@@ -1,8 +1,16 @@
 # Disabling Firmware Write Protection
 
-The process to disable firmware write protection varies depending on the device, so be sure to check the [Supported Devices](/docs/supported-devices.md) page to verify which method is applicable for your device.
+To fully disable the firmware write protection, one would need to:
 
-Here, we are specifically talking about disabling **hardware** write protection, since software write protection is handled automatically as needed by the [Firmware Utility Script](/docs/fwscript.md).
+*  Disable the hardware write protection.
+*  Set the flash chip register to disable software write protection
+*  Clear any protected ranges from the flash chip register (so no data will be protected; the protected range is set to start and end at 0).
+
+::: tip NOTE
+Once you disable the software write protection on your device, it will remain disabled until you manually re-enable it -- even if the hardware write protection is later re-enabled, the firmware chip contents will remain unprotected.
+:::
+
+The process to disable firmware write protection varies depending on the device, so be sure to check the [Supported Devices](/docs/supported-devices.md) page to verify which method is applicable for your device.
 
 ::: warning IMPORTANT
 Your ChromeOS device must be in Developer Mode before attempting to disable the firmware write protection
@@ -87,4 +95,27 @@ This method requires a ChromeOS debug cable (aka SuzyQ cable or SuzyQable).
 On 2023+ ChromeOS devices using a Gen2 CR50 security chip (aka `Ti50`), there is a new feature where the CR50 will verify the RO portion of the AP firmware at boot. If you want to flash custom firmware, you **must** use the CCD method above to disable firmware write protection, regardless if the device supports disablement via battery disconnect or a jumper as well.
 
 For more info, see the [Chromium documentation](https://www.chromium.org/chromium-os/developer-library/guides/device/ro-firmware-unlock/) on this feature. 
+
+
+## Disabling Software Write Protection
+
+::: warning IMPORTANT
+If using MrChromebox's Firmware Utility Script to flash the firmware or set the GBB flags on your device, it is not necessary (nor recommended) to manually disable the software write protection. The Firmware Utility Script will automatically disable/clear/set/enable the software write protection as required. The information below is provided purely for completeness / understanding of what the Firmware Utility Script does under the hood.
+:::
+
+(read: you don't ever need to do this)
+
+The ChromeOS/ChromiumOS version of flashrom can manipulate the software write protect register.
+
+*   Read the status of the software write protect register:
+
+`sudo flashrom --wp-status`
+
+*   Disable or enable the software write protection:
+
+`sudo flashrom --wp-disable` (or `--wp-enable`)
+
+*   Change software write protection addresses range:
+
+`sudo flashrom --wp-range 0 0` (`--wp-range 0,0` on newer versions of flashrom)
 
