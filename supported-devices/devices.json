@@ -1940,7 +1940,8 @@
             },
             {
                 "device": [
-                    "Lenovo 300e Chromebook Gen 3"
+                    "Lenovo 300e Chromebook Gen 3",
+                    "NEC Chromebook Y1 Gen3A"
                 ],
                 "boardname": "VILBOZ360"
             },
