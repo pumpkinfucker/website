@@ -37,7 +37,7 @@
                     "Lenovo Thinkpad X131e Chromebook"
                 ],
                 "boardname": "STOUT",
-                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook\" target=\"_blank\">switch</a>"
+                "wpMethod": "<a href=\"/images/wp/stout_wp.jpg\" class=\"internal\" title=\"stout wp.jpg\" target=\"_blank\">switch</a>"
             },
             {
                 "device": [
@@ -139,7 +139,7 @@
                     "Acer Chromebase 24"
                 ],
                 "boardname": "BUDDY",
-                "wpMethod": "screw"
+                "wpMethod": "<a href=\"/images/wp/Buddy_wp_screw.jpg\" class=\"internal\" title=\"Buddy_wp_screw.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -223,7 +223,8 @@
                 "device": [
                     "Acer Chromebook 11 (CB3-111/131, C730, C730E, C735)"
                 ],
-                "boardname": "GNAWTY"
+                "boardname": "GNAWTY",
+                "wpMethod": "<a href=\"/images/wp/gnawty_wp.jpg\" class=\"internal\" title=\"gnawty_wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -283,7 +284,7 @@
         ]
     },
     "Intel Braswell": {
-        "default_wpmethod": "<a href=\"/images/b/bb/Banon_wp.jpg\" class=\"internal\" title=\"Banon wp.jpg\">screw</a>",
+        "default_wpmethod": "screw",
         "default_rwLegacy": null,
         "default_fullrom": true,
         "devices": [
@@ -291,42 +292,40 @@
                 "device": [
                     "Acer Chromebook 15 (CB3-532)"
                 ],
-                "boardname": "BANON"
+                "boardname": "BANON",
+                "wpMethod": "<a href=\"/images/wp/Banon_wp.jpg\" class=\"internal\" title=\"Banon wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
                     "Samsung Chromebook 3"
                 ],
-                "boardname": "CELES",
-                "wpMethod": "screw"
+                "boardname": "CELES"
             },
             {
                 "device": [
                     "Acer Chromebook R11 (C738T, CB5-132T)"
                 ],
                 "boardname": "CYAN",
-                "wpMethod": "screw"
+                "wpMethod": "<a href=\"/images/wp/cyan_wp.jpg\" class=\"internal\" title=\"cyan_wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
                     "Acer Chromebook 14 (CB3-431)"
                 ],
                 "boardname": "EDGAR",
-                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://www.ifixit.com/Teardown/Acer+Chromebook+14+Teardown/76353\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"/images/wp/Edgar_wp.jpg\" class=\"internal\" title=\"Edgar wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
                     "Dell Chromebook 11 3180/3189"
                 ],
-                "boardname": "KEFKA",
-                "wpMethod": "screw"
+                "boardname": "KEFKA"
             },
             {
                 "device": [
                     "Lenovo N22/N23/N42 Chromebook"
                 ],
-                "boardname": "REKS",
-                "wpMethod": "screw"
+                "boardname": "REKS"
             },
             {
                 "device": [
@@ -339,35 +338,33 @@
                     "Positivo Chromebook C216B"
                 ],
                 "boardname": "RELM",
-                "wpMethod": "<a href=\"/images/5/54/C731_wp.jpg\" class=\"internal\" title=\"C731 wp.jpg\">screw</a>"
+                "wpMethod": "<a href=\"/images/wp/C731_wp.jpg\" class=\"internal\" title=\"C731 wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
                     "HP Chromebook 11 G5"
                 ],
                 "boardname": "SETZER",
-                "wpMethod": "screw"
+                "wpMethod": "<a href=\"/images/wp/Setzer_wp.png\" class=\"internal\" title=\"Setzer_wp.png\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
                     "Asus Chromebook C202S/C202SA"
                 ],
                 "boardname": "TERRA",
-                "wpMethod": "<a href=\"/images/0/08/C202sa_wp.jpg\" class=\"internal\" title=\"C202sa wp.jpg\">screw</a>"
+                "wpMethod": "<a href=\"/images/wp/C202sa_wp.jpg\" class=\"internal\" title=\"C202sa wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
                     "Asus Chromebook C300SA/C301SA"
                 ],
-                "boardname": "TERRA13",
-                "wpMethod": "screw"
+                "boardname": "TERRA13"
             },
             {
                 "device": [
                     "Lenovo ThinkPad 11e/Yoga Chromebook (G3)"
                 ],
-                "boardname": "ULTIMA",
-                "wpMethod": "screw"
+                "boardname": "ULTIMA"
             },
             {
                 "device": [
@@ -379,8 +376,7 @@
                     "Prowise Chromebook Proline",
                     "Viglen Chromebook 360"
                 ],
-                "boardname": "WIZPIG",
-                "wpMethod": "screw"
+                "boardname": "WIZPIG"
             }
         ]
     },
@@ -399,7 +395,8 @@
                 "device": [
                     "Samsung Chromebook Pro"
                 ],
-                "boardname": "CAROLINE"
+                "boardname": "CAROLINE",
+                "wpMethod": "<a href=\"/images/wp/caroline_wp.jpg\" class=\"internal\" title=\"caroline_wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -610,7 +607,7 @@
                     "Asus Google Meet kit (KBL)"
                 ],
                 "boardname": "EXCELSIOR",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/a/a8/Excelsior_wp.jpg\" class=\"internal\" title=\"Excelsior wp.jpg\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Excelsior_wp.jpg\" class=\"internal\" title=\"Excelsior wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -1022,7 +1019,7 @@
                 ],
                 "boardname": "DUFFY",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/a/ab/Duffy_wp_jumper.png\" class=\"internal\" title=\"Duffy wp jumper.png\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Duffy_wp_jumper.png\" class=\"internal\" title=\"Duffy wp jumper.png\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1051,7 +1048,7 @@
                 ],
                 "boardname": "KAISA",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Kaisa_wp.jpg\" class=\"internal\" title=\"Kaisa_wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1083,7 +1080,7 @@
                 ],
                 "boardname": "NOIBAT",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/9/9d/Noibat_wp.png\" class=\"internal\" title=\"Noibat wp.png\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Noibat_wp.png\" class=\"internal\" title=\"Noibat wp.png\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1093,7 +1090,7 @@
                 ],
                 "boardname": "WYVERN",
                 "rwLegacy": true,
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/b/b0/Wyvern_WP_jumper.png\" class=\"internal\" title=\"Wyvern WP jumper.png\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Wyvern_WP_jumper.png\" class=\"internal\" title=\"Wyvern WP jumper.png\" target=\"_blank\">jumper</a>"
             }
         ]
     },
@@ -1214,21 +1211,21 @@
                     "Lenovo 100e Chromebook Gen 3"
                 ],
                 "boardname": "BOOKEM",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "Lenovo 500e Chromebook Gen 3"
                 ],
                 "boardname": "BOTEN",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "Lenovo Flex 3i-11 / IdeaPad Flex 3i Chromebook"
                 ],
                 "boardname": "BOTENFLEX",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/5c/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Boten_wp.jpg\" class=\"internal\" title=\"Boten wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1240,7 +1237,8 @@
                 "device": [
                     "Dell Chromebook 3110"
                 ],
-                "boardname": "CRET"
+                "boardname": "CRET",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Cret_jumper.jpg\" class=\"internal\" title=\"Cret_jumper.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1266,28 +1264,28 @@
                     "HP Fortis x360 11 G3 J Chromebook"
                 ],
                 "boardname": "DRAWCIA",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/50/Drawcia_wp.jpg\" class=\"internal\" title=\"Drawcia wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Drawcia_wp.jpg\" class=\"internal\" title=\"Drawcia wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "HP Chromebook 11 G9 EE"
                 ],
                 "boardname": "DRAWLAT",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/1/17/Drawlat_wp.jpg\" class=\"internal\" title=\"Drawlat wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Drawlat_wp.jpg\" class=\"internal\" title=\"Drawlat wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "HP Chromebook 14 G7"
                 ],
                 "boardname": "DRAWMAN",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/52/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "HP Fortis 14 G10 Chromebook"
                 ],
                 "boardname": "DRAWPER",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/5/52/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Drawman_wp.jpg\" class=\"internal\" title=\"Drawman wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1391,7 +1389,7 @@
                     "Acer Chromebook Spin 512 [R853TA/R853TNA]"
                 ],
                 "boardname": "MAGLIA",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/b/b6/Maglia_wp.jpg\" class=\"internal\" title=\"Maglia wp.jpg\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Maglia_wp.jpg\" class=\"internal\" title=\"Maglia wp.jpg\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
@@ -1423,14 +1421,14 @@
                     "Acer Chromebook 317 [CB317-1H]"
                 ],
                 "boardname": "MAGPIE",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/3/3c/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
                     "NEC Chromebook Y3"
                 ],
                 "boardname": "METAKNIGHT",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/3/3c/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\">jumper</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Magpie_wp_jumper.png\" class=\"internal\" title=\"Magpie wp jumper.png\" target=\"_blank\">jumper</a>"
             },
             {
                 "device": [
