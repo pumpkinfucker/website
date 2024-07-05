@@ -323,7 +323,7 @@
             },
             {
                 "device": [
-                    "Lenovo N22/N42 Chromebook"
+                    "Lenovo N22/N23/N42 Chromebook"
                 ],
                 "boardname": "REKS",
                 "wpMethod": "screw"
@@ -332,6 +332,7 @@
                 "device": [
                     "Acer Chromebook 11 N7 (C731)",
                     "CTL NL61 Chromebook",
+                    "EduGear Chromebook R",
                     "Edxis Education Chromebook (NL6D)",
                     "HP Chromebook 11 G5 EE",
                     "Mecer V2 Chromebook",
