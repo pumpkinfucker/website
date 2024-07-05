@@ -1532,6 +1532,12 @@
             },
             {
                 "device": [
+                    "Acer Chromebook Plus Spin 514 [CP514-4HN]"
+                ],
+                "boardname": "DOCHI"
+            },
+            {
+                "device": [
                     "Asus Chromebook Flip CX5 (CX5601)"
                 ],
                 "boardname": "FELWINTER"
@@ -1550,7 +1556,7 @@
             },
             {
                 "device": [
-                    "Acer Chromebook Spin 714 (CP714-1WN)"
+                    "Acer Chromebook Spin 714 [CP714-1WN/2WN]"
                 ],
                 "boardname": "KANO"
             },
@@ -1599,7 +1605,13 @@
             },
             {
                 "device": [
-                    "Acer Chromebook 516 GE (CBG516-1H)"
+                    "Acer Chromebook Plus Enterprise 515"
+                ],
+                "boardname": "ONMIKNIGHT"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 516 GE [CBG516-1H]"
                 ],
                 "boardname": "OSIRIS"
             },
@@ -1617,15 +1629,27 @@
             },
             {
                 "device": [
+                    "Lenovo Flex 5i Chromebook / IdeaPad Flex 5i Chromebook"
+                ],
+                "boardname": "TAEKO"
+            },
+            {
+                "device": [
                     "Lenovo IdeaPad Gaming Chromebook 16"
                 ],
                 "boardname": "TANIKS"
             },
             {
                 "device": [
-                    "Lenovo Flex 5i Chromebook / IdeaPad Flex 5i Chromebook"
+                    "Lenovo 5i Chromebook 16\""
                 ],
-                "boardname": "TAEKO"
+                "boardname": "TARLO"
+            },
+            {
+                "device": [
+                    "HP Dragonfly Pro Chromebook"
+                ],
+                "boardname": "VELL"
             },
             {
                 "device": [
