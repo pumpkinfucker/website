@@ -71,7 +71,7 @@
                     "Acer Chromebox CXI"
                 ],
                 "boardname": "McCLOUD",
-                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"/images/wp/mccloud_wp.jpg\" class=\"internal\" title=\"mccloud_wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -85,7 +85,7 @@
                     "Asus Chromebox CN60"
                 ],
                 "boardname": "PANTHER",
-                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"/images/wp/panther_wp.jpg\" class=\"internal\" title=\"panther_wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -99,7 +99,7 @@
                     "Dell Chromebox 3010"
                 ],
                 "boardname": "TRICKY",
-                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"/images/wp/panther_wp.jpg\" class=\"internal\" title=\"panther_wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -113,7 +113,7 @@
                     "HP Chromebox CB1 / G1"
                 ],
                 "boardname": "ZAKO",
-                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"/images/wp/panther_wp.jpg\" class=\"internal\" title=\"panther_wp.jpg\" target=\"_blank\">screw</a>"
             }
         ]
     },
@@ -153,7 +153,7 @@
                     "Asus Chromebox 2 (CN62)"
                 ],
                 "boardname": "GUADO",
-                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"/images/wp/panther_wp.jpg\" class=\"internal\" title=\"panther_wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -166,7 +166,7 @@
                     "Acer Chromebox CXI2"
                 ],
                 "boardname": "RIKKU",
-                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"/images/wp/mccloud_wp.jpg\" class=\"internal\" title=\"mccloud_wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -180,7 +180,7 @@
                     "Lenovo ThinkCentre Chromebox"
                 ],
                 "boardname": "TIDUS",
-                "wpMethod": "<a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"/images/wp/tidus_wp.jpg\" class=\"internal\" title=\"tidus_wp.jpg\" target=\"_blank\">screw</a>"
             }
         ]
     },
@@ -615,7 +615,7 @@
                     "Newline Chromebox A10"
                 ],
                 "boardname": "JAX",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, screw"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -666,7 +666,7 @@
                     "Acer Chromebox CXI3"
                 ],
                 "boardname": "SION",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -691,7 +691,7 @@
                     "Asus Chromebox 3 (CN65)"
                 ],
                 "boardname": "TEEMO",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
             },
             {
                 "device": [
@@ -707,7 +707,7 @@
                     "ViewSonic NMP660 Chromebox"
                 ],
                 "boardname": "WUKONG",
-                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a rel=\"nofollow noopener noreferrer\" class=\"external text\" href=\"https://kodi.wiki/view/Archive:Chromebox#Disable_Firmware_Write_Protect\" target=\"_blank\">screw</a>"
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/fizz_wp.jpg\" class=\"internal\" title=\"fizz wp.jpg\" target=\"_blank\">screw</a>"
             }
         ]
     },
