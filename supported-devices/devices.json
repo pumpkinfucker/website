@@ -440,13 +440,15 @@
             },
             {
                 "device": [
-                    "Asus Chromebook C223NA"
+                    "Asus Chromebook C223NA",
+                    "ASUS Chromebook CX1100CNA"
                 ],
                 "boardname": "BABYMEGA"
             },
             {
                 "device": [
-                    "Asus Chromebook C523NA"
+                    "Asus Chromebook C523NA",
+                    "ASUS Chromebook CX1500CNA"
                 ],
                 "boardname": "BABYTIGER"
             },
@@ -454,9 +456,10 @@
                 "device": [
                     "CTL Chromebook NL7/NL7T",
                     "Edxis Chromebook 11/X11",
+                    "Lanix Chromebook C116",
+                    "Multilaser Chromebook M11C-PC912",
                     "Positivo Chromebook N2110/N2112",
-                    "Viglen Chromebook 360C",
-                    ""
+                    "Viglen Chromebook 360C"
                 ],
                 "boardname": "BLACKTIP"
             },
@@ -471,12 +474,6 @@
                     "Acer Chromebook Spin 15 (CP315)"
                 ],
                 "boardname": "BRUCE"
-            },
-            {
-                "device": [
-                    "Acer Chromebook Spin 11 (R751T)"
-                ],
-                "boardname": "ELECTRO"
             },
             {
                 "device": [
@@ -510,13 +507,15 @@
             },
             {
                 "device": [
-                    "Asus Chromebook C423"
+                    "Asus Chromebook C423",
+                    "ASUS Chromebook CX1400CNA"
                 ],
                 "boardname": "RABBID"
             },
             {
                 "device": [
-                    "Asus Chromebook Flip C213SA"
+                    "Asus Chromebook Flip C213SA",
+                    "Acer Chromebook Spin 11 (R751T)"
                 ],
                 "boardname": "REEF"
             },
