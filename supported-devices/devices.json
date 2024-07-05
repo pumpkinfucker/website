@@ -1561,15 +1561,39 @@
         "devices": [
             {
                 "device": [
-                    "Acer Chromebook Spin 512"
+                    "ASUS Chromebook CR12"
                 ],
-                "boardname": "CRAASK"
+                "boardname": "ANRAGGAR"
+            },
+            {
+                "device": [
+                    "ASUS Chromebook CR12 Flip"
+                ],
+                "boardname": "ANRAGGAR360"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 311"
+                ],
+                "boardname": "CRAASKANA"
             },
             {
                 "device": [
                     "Acer Chromebook Spin 511"
                 ],
                 "boardname": "CRAASKBOWL"
+            },
+            {
+                "device": [
+                    "Acer Chromebook Spin 512"
+                ],
+                "boardname": "CRAASK"
+            },
+            {
+                "device": [
+                    "Acer Chromebook 315 [CB315-5H]"
+                ],
+                "boardname": "CRAASKINO"
             },
             {
                 "device": [
@@ -1585,7 +1609,25 @@
             },
             {
                 "device": [
+                    "Acer Chromebook Spin 314"
+                ],
+                "boardname": "CRAASWELL"
+            },
+            {
+                "device": [
+                    "HP Chromebook Plus x360"
+                ],
+                "boardname": "JOXER"
+            },
+            {
+                "device": [
                     "Lenovo 500e Yoga Chromebook Gen 4"
+                ],
+                "boardname": "PUJJO1E"
+            },
+            {
+                "device": [
+                    "Lenovo Flex 3i Chromebook 12\""
                 ],
                 "boardname": "PUJJO"
             },
@@ -1609,6 +1651,30 @@
             },
             {
                 "device": [
+                    "CTL Chromebook NL73"
+                ],
+                "boardname": "QUANDISO"
+            },
+            {
+                "device": [
+                    "CTL Chromebook NL73T"
+                ],
+                "boardname": "QUANDISO360"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 3120"
+                ],
+                "boardname": "ULDREN"
+            },
+            {
+                "device": [
+                    "Dell Chromebook 3120 2-in-1"
+                ],
+                "boardname": "ULDREN360"
+            },
+            {
+                "device": [
                     "Asus Chromebook CR11 [CR1102C]"
                 ],
                 "boardname": "XIVU"
@@ -1621,9 +1687,33 @@
             },
             {
                 "device": [
+                    "HP Chromebook Plus 14a"
+                ],
+                "boardname": "YAHIKO"
+            },
+            {
+                "device": [
+                    "HP Fortis 14 inch G11 Chromebook"
+                ],
+                "boardname": "YAVIJO"
+            },
+            {
+                "device": [
                     "HP Chromebook 15a-nb0"
                 ],
                 "boardname": "YAVIKS"
+            },
+            {
+                "device": [
+                    "HP Fortis 11 inch G10 Chromebook"
+                ],
+                "boardname": "YAVILLA"
+            },
+            {
+                "device": [
+                    "HP Fortis x360 11 inch G5 Chromebook"
+                ],
+                "boardname": "YAVILLY"
             }
         ]
     },
@@ -1714,10 +1804,10 @@
                 "boardname": "GUMBOZ"
             },
             {
-            	"device": [
-            		"Asus Chromebook Flip CM1"
-            	],
-            	"boardname": "JELBOZ360"
+                "device": [
+                    "Asus Chromebook Flip CM1"
+                ],
+                "boardname": "JELBOZ360"
             },
             {
                 "device": [
