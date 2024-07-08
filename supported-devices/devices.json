@@ -598,6 +598,13 @@
             },
             {
                 "device": [
+                    "Meet Compute System - Series One (Lenovo)"
+                ],
+                "boardname": "ENDEAVOUR",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, <a href=\"/images/wp/Excelsior_wp.jpg\" class=\"internal\" title=\"Excelsior wp.jpg\" target=\"_blank\">screw</a>"
+            },
+            {
+                "device": [
                     "Google Pixelbook (2017)"
                 ],
                 "boardname": "EVE"
@@ -996,6 +1003,14 @@
             },
             {
                 "device": [
+                    "ASUS Meet Compute System (Intel 10th Gen)",
+                    "CTL Meet Compute System (Intel 10th Gen)"
+                ],
+                "boardname": "AMBASSADOR",
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+            },
+            {
+                "device": [
                     "HP Chromebook x360 14c-ca0"
                 ],
                 "boardname": "DRAGONAIR"
@@ -1027,6 +1042,13 @@
                 ],
                 "boardname": "FAFFY",
                 "rwLegacy": true,
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+            },
+            {
+                "device": [
+                    "Meet Compute System - Series One (Intel 10th Gen)"
+                ],
+                "boardname": "GENESIS",
                 "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
             },
             {
