@@ -1011,6 +1011,14 @@
             },
             {
                 "device": [
+                    "HP Chromebase 21.5\""
+                ],
+                "boardname": "DOOLY",
+                "rwLegacy": true,
+                "wpMethod": "<a href=\"https://docs.mrchromebox.tech/docs/firmware/wp/disabling.html\" title=\"Firmware Write Protect\">CR50</a>, jumper"
+            },
+            {
+                "device": [
                     "HP Chromebook x360 14c-ca0"
                 ],
                 "boardname": "DRAGONAIR"
