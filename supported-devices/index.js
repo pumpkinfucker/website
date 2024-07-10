@@ -63,7 +63,7 @@ function generateHTML(chromebooks) {
             <th scope="col"> UEFI Firmware <br>(Full ROM)</th>
             <th scope="col"> WP Method</th>
         </tr>`;
-        
+
         devices.devices.forEach((device, index) => {
             let devicename = device.device.join("<br>");
             let rw_legacy = "";
@@ -73,8 +73,8 @@ function generateHTML(chromebooks) {
                 rw_legacy = "✅";
             }
             let full_rom = device.fullrom ? "✅" : "";
-            
-            
+
+
             html += `
         <tr>
             <td>${devicename}</td>
@@ -83,7 +83,7 @@ function generateHTML(chromebooks) {
             <td style="text-align:center;"> ${full_rom}</td>
             <td style="text-align:center;"> ${device.wpMethod}</td>
         </tr>`;
-        
+
         })
     }
     html += `

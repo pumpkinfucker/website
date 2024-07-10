@@ -2,7 +2,7 @@
 
 A ChromeOS device will boot to Recovery Mode when something goes wrong, but it can be accessed manually as well. Its primary function is to reload the OS and and any modified RW firmnware components. It is also the mechanism by which you switch the device from Normal Mode to Developer Mode. While the recovery mode UI has evolved over the years, the core functions remain unchanged.
 
-Some example recovery mode screens: 
+Some example recovery mode screens:
 
 <p align="center">
 <img src="/images/cros_recovery_old.jpg" alt="Recovery Mode 1" width="300">
@@ -28,7 +28,7 @@ On some devices (mainly convertibles), the key in the upper right corner of the 
 
 ### Chromeboxes
 
-Depress the recovery button using a paperclip or SIM card tool, then power on the device. Release once the screen turns on. 
+Depress the recovery button using a paperclip or SIM card tool, then power on the device. Release once the screen turns on.
 
 The hole for the recovery button is usually located above the Kensington Lock slot.
 

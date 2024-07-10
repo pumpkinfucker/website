@@ -21,7 +21,7 @@ A device having firmware available (either RW_LEGACY or UEFI Full ROM) does not 
 
 The best resource for OS compatibility is the [chrultrabook Supported Devices Page](https://docs.chrultrabook.com/docs/firmware/supported-devices.html)
 
-  
+
 
 ## Device Listing
 

@@ -1,7 +1,7 @@
 # Unbricking/Flashing with a ch341a USB Programmer
 
 ## Requirements
-  
+
 ::: tip
 Most Skylake and older models (with a few exceptions) use a SOIC-8 flash chip which is easily clippable. Most if not all Kabylake/Apollolake and newer devices use a WSON-8 flash chip which can't be clipped, instead you need a WSON-8 probe. Check the part number of your flash chip to find the correct size needed.
 :::
@@ -56,9 +56,9 @@ So let's get to it:
 4. Install flashrom via apt:
    * `sudo apt update`
    * `sudo apt install flashrom`
-5. Assemble ch341a programmer, 1.8v adapter (if needed), and chip clip/wiring. Ensure that pin 1 is correct and consistent.  
+5. Assemble ch341a programmer, 1.8v adapter (if needed), and chip clip/wiring. Ensure that pin 1 is correct and consistent.
    ![image](/ch341aunbrick/500px-Ch341a_annotated.png)
-6. Connect the chip clip to the SPI flash chip, or get ready to hold down your WSON-8 probe, rubber bands can be used to hold it down while flashing, then connect the CH341a to the Linux host machine. Note the dot/depression indicating pin 1.  
+6. Connect the chip clip to the SPI flash chip, or get ready to hold down your WSON-8 probe, rubber bands can be used to hold it down while flashing, then connect the CH341a to the Linux host machine. Note the dot/depression indicating pin 1.
    ![image](/ch341aunbrick/500px-SOIC-8_chip.jpg)
 7. Test connectivity and ensure the flash chip is properly identified:
     * `sudo flashrom -p ch341a_spi`

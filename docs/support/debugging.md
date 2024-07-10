@@ -4,7 +4,7 @@
 
 * If you're experiencing a firmware problem, provide output from `cbmem` console.
     * If you're running Linux, the output from `dmesg`, and `dmidecode` can also be helpful
-* If you're experiencing OS-related issues, please ask for help using the [Chrultrabook Forums](https://forum.chrultrabook.com/). 
+* If you're experiencing OS-related issues, please ask for help using the [Chrultrabook Forums](https://forum.chrultrabook.com/).
 
 ## Firmware
 

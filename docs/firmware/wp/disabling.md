@@ -63,7 +63,7 @@ This method requires a ChromeOS debug cable (aka SuzyQ cable or SuzyQable).
 1. Power on the device to the login screen (booted into Developer Mode).
 2. Open VT-2 terminal: press `[CTRL+ALT+F2]` (F2 is the right arrow).
 3. Login as `root`.
-4. Open the CCD: run `gsctool -a -o`. 
+4. Open the CCD: run `gsctool -a -o`.
 5. You will be prompted to press the `PP` (physical presence) button several times. On almost all devices, this means to press the power button. Opening the CCD requires you to press the `PP` button several times over a 2-3 minute period.  with the message `PP Done!`.
 6. When the open CCD process is complete, you will see a message showing `PP Done!` and the device will reboot in Normal/Verified Boot Mode.
 7. Re-enable developer mode and continue with the instructions below.
@@ -76,7 +76,7 @@ This method requires a ChromeOS debug cable (aka SuzyQ cable or SuzyQable).
 4. Plug in your SuzyQable - the USB-C end normally connects to the upper/left USB-C port.
 5. Verify the cable is connected properly:
     Run `ls /dev/ttyUSB*`
-    The output of this command should output 3 items, `ttyUSB0`, `ttyUSB1`, and `ttyUSB2`. 
+    The output of this command should output 3 items, `ttyUSB0`, `ttyUSB1`, and `ttyUSB2`.
     If the 3 ttyUSB devices are not listed, try reversing the orientation of the USB-C cable, and try another port. If there is still no result, there may be a problem with your cable/adapter, or your ChromeOS device may not support connecting the cable in loopback mode as is done here. In that case, connect the USB-A end of the cable to another device and run the command from there.
 6. Run the following commands. This will disable hardware write protect.
     - `echo "wp false" > /dev/ttyUSB0`
@@ -94,7 +94,7 @@ This method requires a ChromeOS debug cable (aka SuzyQ cable or SuzyQable).
 
 On 2023+ ChromeOS devices using a Gen2 CR50 security chip (aka `Ti50`), there is a new feature where the CR50 will verify the RO portion of the AP firmware at boot. If you want to flash custom firmware, you **must** use the CCD method above to disable firmware write protection, regardless if the device supports disablement via battery disconnect or a jumper as well.
 
-For more info, see the [Chromium documentation](https://www.chromium.org/chromium-os/developer-library/guides/device/ro-firmware-unlock/) on this feature. 
+For more info, see the [Chromium documentation](https://www.chromium.org/chromium-os/developer-library/guides/device/ro-firmware-unlock/) on this feature.
 
 
 ## Disabling Software Write Protection

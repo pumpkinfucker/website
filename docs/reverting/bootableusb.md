@@ -35,10 +35,10 @@ For this guide, we will be using Rufus to create our bootable USB. Rufus is a us
 
 ## Flashing using Ventoy (Windows/Linux/macOS)
 
-For this guide, we will be using Ventoy to create our bootable USB. 
+For this guide, we will be using Ventoy to create our bootable USB.
 Ventoy allows you to boot multiple ISO's from a single drive.
-1. Download and extract the latest version from [Github](https://www.ventoy.net/en/download.html). 
-   * Download the respective file for your platform. 
+1. Download and extract the latest version from [Github](https://www.ventoy.net/en/download.html).
+   * Download the respective file for your platform.
      ![image](/ventoy/download-alt.png)
 
 2. Run `Ventoy2Disk.exe` for Windows or `VentoyGUI.x86_64` for Linux.
