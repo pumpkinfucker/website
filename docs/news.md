@@ -1,14 +1,6 @@
 # Latest Updates
 
 
-## Major Website Overhaul!
-(2024.07.04)
-
-Long Overdue, the backend of the website here has been migrated from the old hand-crafted HTML to a new markdown-based setup using [Vuepress](https://vuepress.vuejs.org), with the source all [on Github](https://github.com/MrChromebox/website) for ease of updates and automated deployment. This means community contributions can be more easily integrated, and hopefully will improve the flow of information (in both directions) between this project and [chrultrabook](https://chrultrabook.com).
-
-There are problably a lot of rough edges still, so feel free to [submit an issue](https://github.com/MrChromebox/website/issues) or a [pull request](https://github.com/MrChromebox/website/pulls) should you come across anything :)
-
-
 
 ## MrChromebox-2405.1 Point Release
 
@@ -19,6 +11,15 @@ This release is just for AMD Mendocino-based devices, and updates them from 4.22
 The issues which held back MDN from the initial 2405 release have been resolved, and should not be a problem going forward.
 
 MDN is now a first-class option, with full functionality under both Windows/Linux, working Modern Standby (S0ix), audio, and everything else. The only exception is the fingerprint reader (FPR), which is unsupported on all ChromeOS devcices outside of ChromeOS currently.
+
+
+
+## Major Website Overhaul!
+(2024.07.04)
+
+Long Overdue, the backend of the website here has been migrated from the old hand-crafted HTML to a new markdown-based setup using [Vuepress](https://vuepress.vuejs.org), with the source all [on Github](https://github.com/MrChromebox/website) for ease of updates and automated deployment. This means community contributions can be more easily integrated, and hopefully will improve the flow of information (in both directions) between this project and [chrultrabook](https://chrultrabook.com).
+
+There are problably a lot of rough edges still, so feel free to [submit an issue](https://github.com/MrChromebox/website/issues) or a [pull request](https://github.com/MrChromebox/website/pulls) should you come across anything :)
 
 
 
