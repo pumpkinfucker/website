@@ -10,6 +10,18 @@ There are problably a lot of rough edges still, so feel free to [submit an issue
 
 
 
+## MrChromebox-2405.1 Point Release
+
+(2024.07.10)
+
+This release is just for AMD Mendocino-based devices, and updates them from 4.22.x to the 2405 code base.
+
+The issues which held back MDN from the initial 2405 release have been resolved, and should not be a problem going forward.
+
+MDN is now a first-class option, with full functionality under both Windows/Linux, working Modern Standby (S0ix), audio, and everything else. The only exception is the fingerprint reader (FPR), which is unsupported on all ChromeOS devcices outside of ChromeOS currently.
+
+
+
 ## MrChromebox-2405 Release
 
 (2024.06.15)
