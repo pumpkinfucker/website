@@ -6,5 +6,3 @@ node_modules
 **/supported-devices.md
 .vuepress/public/supported-devices.js
 .vuepress/public/devices.json
-
-package-lock.json
