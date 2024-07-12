@@ -10,7 +10,7 @@ This release is just for AMD Mendocino-based devices, and updates them from 4.22
 
 The issues which held back MDN from the initial 2405 release have been resolved, and should not be a problem going forward.
 
-MDN is now a first-class option, with full functionality under both Windows/Linux, working Modern Standby (S0ix), audio, and everything else. The only exception is the fingerprint reader (FPR), which is unsupported on all ChromeOS devcices outside of ChromeOS currently.
+MDN is now a first-class option, with full functionality under both Windows/Linux, working Modern Standby (S0ix), audio, and everything else. The only exception is the fingerprint reader (FPR), which is unsupported on all ChromeOS devices outside of ChromeOS currently.
 
 
 
